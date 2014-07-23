@@ -13,3 +13,6 @@
 [submodule "userdots/.vim/colors/solarized"]
 	path = userdots/.vim/colors/solarized
 	url = git@github.com:altercation/vim-colors-solarized.git
+[submodule "userdots/.vim/bundle/solarized"]
+	path = userdots/.vim/bundle/solarized
+	url = git@github.com:altercation/vim-colors-solarized.git

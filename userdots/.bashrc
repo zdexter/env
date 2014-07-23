@@ -1,11 +1,10 @@
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+fi
+
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 export PGHOST=localhost
-
-# enable bash completion in interactive shells
-if [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
-fi
 
 # Aliases
 alias li='ls -liah'

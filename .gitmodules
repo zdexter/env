@@ -1,0 +1,15 @@
+[submodule "userdots/.vim/bundle/ctrlp"]
+	path = userdots/.vim/bundle/ctrlp
+	url = git@github.com:kien/ctrlp.vim.git
+[submodule "userdots/.vim/bundle/coffee-script"]
+	path = userdots/.vim/bundle/coffee-script
+	url = git@github.com:kchmck/vim-coffee-script.git
+[submodule "userdots/.vim/bundle/fugitive"]
+	path = userdots/.vim/bundle/fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule "userdots/.vim/bundle/nerdtree"]
+	path = userdots/.vim/bundle/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
+[submodule "userdots/.vim/colors/solarized"]
+	path = userdots/.vim/colors/solarized
+	url = git@github.com:altercation/vim-colors-solarized.git

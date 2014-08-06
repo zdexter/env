@@ -104,4 +104,11 @@ augroup reload_vimrc
 augroup END
 
 set list listchars=tab:»\ ,trail:·,precedes:<,extends:> " 
-autocmd vimenter * NERDTree
+
+function! StartUp()
+    if 0 == argc()
+        NERDTree
+    end
+endfunction
+
+autocmd VimEnter * call StartUp()

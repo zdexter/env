@@ -36,7 +36,7 @@ function __my_git()
     fi
 }
 
-export PS1="${__CYAN_C}\u::\h ${__GREEN_C}\W${__RESET_C} ${__YELLOW_C}\$(__my_git)${__RESET_C}${__RED_C}\$${__RESET_C} "
+export PS1="${__CYAN_C}\u::${__GREEN_C}\W${__RESET_C} ${__YELLOW_C}\$(__my_git)${__RESET_C}${__RED_C}\$${__RESET_C} "
 
 # Terminal title setter
 

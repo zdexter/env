@@ -17,5 +17,8 @@ BASE=$(greadlink -e $(dirname $0))
 
 for fname in `ls -A $BASE/userdots/`; do
     echo "Linking ~/$fname"
-    ln -sf `greadlink -e $fname` $HOME/
+    ln -sf `greadlink -e $BASE/userdots/$fname` $HOME/
 done
+
+echo "Idempotently creating private bash config file"
+touch $HOME/.privconf

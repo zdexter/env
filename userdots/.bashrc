@@ -3,6 +3,7 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PATH=$PATH:${GOPATH//://bin:}/bin # Add all Go executables in GOPATH
 
 export PGHOST=localhost
 
